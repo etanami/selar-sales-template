@@ -33,7 +33,60 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: var(--font-family-sans-serif);
+  font-weight: 400;
+  background-color: var(--light);
+}
+
+.navbar {
+  background-color: black;
+}
+
+@media (min-width: 992px) {
+  #intro,
+  #coach,
+  #program-details {
+    max-width: 992px;
+    margin: auto;
+  }
+
+  .w-lg-50 {
+    width: 50%;
+  }
+
+  .w-lg-75 {
+    width: 75%;
+  }
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.elDividerInner {
+  border-color: rgba(136, 136, 136, 0.32);
+}
+
+.elDivider {
+  display: block;
+  width: 100%;
+  min-height: 1px;
+  margin: 0px;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+.li-color {
+  color: rgb(242, 44, 51);
+  padding-right: 1.5rem;
+}
