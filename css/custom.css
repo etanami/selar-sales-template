@@ -27,13 +27,34 @@
   max-width: 40rem;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+#main-footer {
+  border-top: 2px solid green;
+}
+
+#card-reviews {
+  background-color: #acff2f81;
+  border-radius: 5rem;
+}
+
+.img-item {
+  height: 150px;
+}
