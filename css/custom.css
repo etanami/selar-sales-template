@@ -33,7 +33,49 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 992px) {
+  #intro,
+  #foundational-knowledge,
+  #advanced-training,
+  #monthly-value,
+  #members,
+  #low-investment,
+  #copyblogger {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .intro-header {
+    font-size: 4rem;
+  }
+}
+
+body {
+  font-family: var(--font-family-sans-serif);
+  font-weight: 400;
+  background-color: var(--light);
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.join-copyblogger {
+  background-color: rgba(96, 155, 202, 0.932);
+}
+
+.card-header {
+  border: 1rem rgba(96, 155, 202, 0.932) solid;
+}
