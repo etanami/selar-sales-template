@@ -33,7 +33,33 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(104, 76, 76, 0.05);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 992px) {
+  .w-lg-90 {
+    width: 90%;
+    font-size: 3.5rem;
+  }
+}
+
+.start-today,
+.list-check,
+.text-orange {
+  color: rgb(255, 76, 0);
+}
+
+.bg-purple {
+  background-color: rgb(232, 15, 86);
+}
+
+.bg-orange {
+  background-color: rgb(251, 6, 45);
+}
