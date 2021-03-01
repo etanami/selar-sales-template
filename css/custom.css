@@ -3,6 +3,12 @@ body {
     sans-serif;
 }
 
+@media (min-width: 992px) {
+  .w-lg-85 {
+    width: 85%;
+  }
+}
+
 #page-header {
   background-color: rgb(33, 42, 49);
   font-stretch: ultra-condensed;
@@ -14,7 +20,8 @@ body {
 }
 
 .purchase,
-.purchase-link {
+.purchase-link,
+.sign-up {
   background-color: #9dc41b;
 }
 
@@ -38,7 +45,8 @@ body {
 .review-header,
 .author-header,
 .packages-header,
-.card-title {
+.card-title,
+.subscribe-header {
   font-stretch: ultra-condensed;
   text-transform: uppercase;
 }
@@ -68,4 +76,8 @@ body {
 .price {
   color: #9dc41b;
   font-size: 2rem;
+}
+
+.footer-text {
+  font-size: 0.75rem;
 }
