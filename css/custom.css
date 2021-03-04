@@ -7,9 +7,6 @@ body {
   .w-lg-85 {
     width: 85%;
   }
-  .navbar {
-    border-bottom: 1px solid #fff;
-  }
 }
 
 #page-header {
