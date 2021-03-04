@@ -4,9 +4,15 @@
   }
 }
 
-#intro-header {
+#intro-header,
+#packages,
+#main-footer {
   background-color: rgb(40, 40, 40);
   color: rgb(234, 234, 234);
+}
+
+.footer-text {
+  font-size: 0.75rem;
 }
 
 .header-title {
@@ -34,4 +40,48 @@
   padding: 1.5rem 4.5rem;
   border-radius: 3rem;
   font-size: 1.25rem;
+}
+
+.custom-text {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.text-height {
+  line-height: 2.25rem;
+}
+
+#packages {
+  background-color: ;
+}
+
+.card {
+  background-color: rgb(229, 73, 73);
+  border: none;
+}
+
+.card-mid {
+  background-color: rgb(229, 57, 57);
+  border: none;
+  margin-top: -20%;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.hl {
+  border-bottom: 1px solid #c52318;
+  width: 90%;
+}
+
+.purchase {
+  background-color: rgb(229, 41, 41);
+  box-shadow: rgb(197, 40, 29) 0px 5px 0px;
+  color: #fff;
+}
+
+.purchase-mid {
+  box-shadow: 0 5px 0 #d9d9d9;
+  background-color: #fbfbfb;
 }
