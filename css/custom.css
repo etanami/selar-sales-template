@@ -85,3 +85,16 @@
   box-shadow: 0 5px 0 #d9d9d9;
   background-color: #fbfbfb;
 }
+
+#ready {
+  background-color: rgb(229, 57, 57);
+}
+
+.ready-title {
+  font-size: 3rem;
+}
+
+.start {
+  padding: 1.5rem 5rem;
+  border-radius: 1rem;
+}
