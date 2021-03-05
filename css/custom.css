@@ -51,10 +51,6 @@
   line-height: 2.25rem;
 }
 
-#packages {
-  background-color: ;
-}
-
 .card {
   background-color: rgb(229, 73, 73);
   border: none;
@@ -63,7 +59,10 @@
 .card-mid {
   background-color: rgb(229, 57, 57);
   border: none;
-  margin-top: -20%;
+}
+
+.mid {
+  margin-top: -1rem;
 }
 
 .card-title {
